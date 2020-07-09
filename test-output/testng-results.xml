@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35912" started-at="2020-07-09T18:09:17Z" finished-at="2020-07-09T18:09:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31662" started-at="2020-07-09T18:09:17Z" finished-at="2020-07-09T18:09:48Z">
+      <class name="comm.orangehrm.testcases.LoginTestCases">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:comm.orangehrm.testcases.LoginTestCases@3ffc5af1]" name="openUrl" is-config="true" duration-ms="19757" started-at="2020-07-09T18:09:17Z" finished-at="2020-07-09T18:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:comm.orangehrm.testcases.LoginTestCases@3ffc5af1]" name="beforeclass" is-config="true" duration-ms="4" started-at="2020-07-09T18:09:37Z" finished-at="2020-07-09T18:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="invalidLogin1()[pri:1, instance:comm.orangehrm.testcases.LoginTestCases@3ffc5af1]" name="invalidLogin1" duration-ms="2063" started-at="2020-07-09T18:09:37Z" finished-at="2020-07-09T18:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin1 -->
+        <test-method status="PASS" signature="inavlidLogin1()[pri:2, instance:comm.orangehrm.testcases.LoginTestCases@3ffc5af1]" name="inavlidLogin1" duration-ms="1803" started-at="2020-07-09T18:09:39Z" finished-at="2020-07-09T18:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inavlidLogin1 -->
+        <test-method status="PASS" signature="validLogin()[pri:3, instance:comm.orangehrm.testcases.LoginTestCases@3ffc5af1]" name="validLogin" duration-ms="8000" started-at="2020-07-09T18:09:40Z" finished-at="2020-07-09T18:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- comm.orangehrm.testcases.LoginTestCases -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="4188" started-at="2020-07-09T18:09:49Z" finished-at="2020-07-09T18:09:53Z">
+      <class name="comm.orangehrm.testcases.DetailsTestCases">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:comm.orangehrm.testcases.DetailsTestCases@754ba872]" name="openBrowser" is-config="true" duration-ms="3892" started-at="2020-07-09T18:09:13Z" finished-at="2020-07-09T18:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:comm.orangehrm.testcases.DetailsTestCases@754ba872]" name="openUrl" is-config="true" duration-ms="1399" started-at="2020-07-09T18:09:49Z" finished-at="2020-07-09T18:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:comm.orangehrm.testcases.DetailsTestCases@754ba872]" name="beforeclass" is-config="true" duration-ms="2" started-at="2020-07-09T18:09:50Z" finished-at="2020-07-09T18:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="informationEmployee()[pri:0, instance:comm.orangehrm.testcases.DetailsTestCases@754ba872]" name="informationEmployee" duration-ms="2784" started-at="2020-07-09T18:09:50Z" finished-at="2020-07-09T18:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- informationEmployee -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:comm.orangehrm.testcases.DetailsTestCases@754ba872]" name="closeBrowser" is-config="true" duration-ms="122" started-at="2020-07-09T18:09:53Z" finished-at="2020-07-09T18:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- comm.orangehrm.testcases.DetailsTestCases -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
