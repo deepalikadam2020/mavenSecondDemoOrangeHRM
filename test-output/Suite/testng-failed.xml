@@ -5,11 +5,11 @@
     <classes>
       <class name="comm.orangehrm.testcases.DetailsTestCases">
         <methods>
-          <include name="informationEmployee"/>
           <include name="closeBrowser"/>
           <include name="beforeclass"/>
           <include name="openUrl"/>
           <include name="openBrowser"/>
+          <include name="infoOfSearchedEmployee"/>
         </methods>
       </class> <!-- comm.orangehrm.testcases.DetailsTestCases -->
     </classes>
