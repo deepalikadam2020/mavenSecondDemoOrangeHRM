@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 import comm.orangehrm.base.SetUp;
 import comm.orangehrm.pages.EmployeeDetails;
 import comm.orangehrm.pages.LoginPage;
+import comm.orangehrm.utility.DataConfig;
 
 public class DetailsTestCases extends SetUp {
-	
-	//public WebDriver driver;
+
 	EmployeeDetails ed;
 	LoginPage l;
 	
@@ -20,13 +20,20 @@ public class DetailsTestCases extends SetUp {
 		ed= new EmployeeDetails(driver);
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void informationEmployee()
 	{
 	
-		//l.login(DataConfig.readPropFile("validUsername"),DataConfig.readPropFile("validPassword"));
+		l.login(DataConfig.readPropFile("validUsername"),DataConfig.readPropFile("validPassword"));
 		driver.findElement(ed.admin).click();
-		ed.searchEmployeeDetails();
-		
+		ed.verifyEmployeeDetails(DataConfig.readPropFile("searchUsername"));
+	}
+	
+	@Test(priority = 2)
+	public void infoOfSearchedEmployee()
+	{
+		ed.searchEmoloyeeDetail(DataConfig.readPropFile("searchUsername"),DataConfig.readPropFile("searchEmployeeName"));
+		ed.verifyEmployeeDetails(DataConfig.readPropFile("searchUsername"));
+
 	}
 }

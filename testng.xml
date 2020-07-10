@@ -5,7 +5,7 @@
 		<classes>
 			<class name="comm.orangehrm.testcases.LoginTestCases" />
 		</classes>
-	</test> <!-- Test -->
+	</test> Test
 
 	<test thread-count="5" name="Test1">
 		<classes>
